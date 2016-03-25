@@ -1,0 +1,4 @@
+---
+- name: Application | Install dependencies
+  command: composer install chdir='/var/www/ddd'
+  tags: install

@@ -1,0 +1,30 @@
+{
+    "name": "pocky/ddd-day",
+    "license": "MIT",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "": "app/src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": { "Tests\\": "app/tests/" }
+    },
+    "require": {
+        "php": ">=7.0.1"
+    },
+    "require-dev": {
+        "behat/behat": "~3.0",
+        "phpspec/phpspec": "^2.4",
+        "memio/spec-gen": "^0.4",
+        "phpunit/phpunit": "~5.0",
+        "rmiller/behat-spec": "^0.3.0"
+    },
+    "prefer-stable": true,
+    "config": {
+        "bin-dir": "bin"
+    },
+    "support": {
+        "issues": "https://github.com/pocky/ddd-day/issues"
+    }
+}

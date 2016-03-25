@@ -1,0 +1,24 @@
+extensions:
+  - Memio\SpecGen\MemioSpecGenExtension
+  - RMiller\BehatSpec\PhpSpecExtension
+
+suites:
+    ui_suite:
+        namespace: UI
+        src_path: %paths.config%/app/src
+        spec_path: %paths.config%/app
+
+    application_suite:
+        namespace: Application
+        src_path: %paths.config%/app/src
+        spec_path: %paths.config%/app
+
+    domain_suite:
+        namespace: Domain
+        src_path: %paths.config%/app/src
+        spec_path: %paths.config%/app
+
+    infrastructure_suite:
+        namespace: Infrastructure
+        src_path: %paths.config%/app/src
+        spec_path: %paths.config%/app

@@ -1,0 +1,10 @@
+---
+- hosts: dev
+  sudo: yes
+  pre_tasks:
+    - include: pre_tasks/init.yml
+  roles:
+    - git
+    - php
+    - composer
+    - ddd
