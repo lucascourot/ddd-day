@@ -1,0 +1,9 @@
+.git
+ansible
+ddd
+.gitignore
+README.md
+LICENSE
+Makefile
+Vagrantfile
+docker-compose.yml

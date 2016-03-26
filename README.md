@@ -25,7 +25,7 @@ Installation
 Local config (for Vagrant)
 ---
 
-If you want to add your local .gitconfig or composer.auth to the VirtualMachine, you should create a `Vagrantfile` in 
+If you want to add your local .gitconfig or composer.auth to the VirtualMachine, you should create a `Vagrantfile` in
 `~.vagrant.d/` and add this:
 
 ```
@@ -59,4 +59,11 @@ Vagrant.configure("2") do |config|
     end
 
 end
+```
+
+### Docker
+
+```
+make install
+make start
 ```
