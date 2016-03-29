@@ -1,4 +1,7 @@
 domain:
+    translation:
+        locale: en
+
     autoload:
         '': %paths.base%/app/features/bootstrap
 
@@ -10,6 +13,6 @@ domain:
                 - DomainContext
             filters: { tags: "@domain" }
 
-    extensions:
-        RMiller\BehatSpec\BehatExtension:
-            path: %paths.base%/bin/phpspec
+#    extensions:
+#        RMiller\BehatSpec\BehatExtension:
+#            path: %paths.base%/bin/phpspec

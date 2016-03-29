@@ -1,6 +1,6 @@
-extensions:
-  - Memio\SpecGen\MemioSpecGenExtension
-  - RMiller\BehatSpec\PhpSpecExtension
+#extensions:
+#  - Memio\SpecGen\MemioSpecGenExtension
+#  - RMiller\BehatSpec\PhpSpecExtension
 
 suites:
     ui_suite:
